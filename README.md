@@ -29,6 +29,7 @@ pkg install git
 pkg install python
 pkg install python2
 pkg install lolcat
+pkg install pv
 pip install colorama
 pip install requests
 git clone https://github.com/jatinkalwar/m-bomber2.O
