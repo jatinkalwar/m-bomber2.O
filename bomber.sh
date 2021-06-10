@@ -79,7 +79,7 @@ echo -e '\e[92mX  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
                         JATIN KALWAR
 '
     figlet M-BOMBER 2.O| lolcat
-    fi
+   
     echo -e "\e[31mWARNING :- \e[97mDON'T TRY TO BOMB MY NUMBER OTHERWISE YOUR IP WILL BE BAN" | pv -qL 70
 echo -e "\e[32mThis Bomber Is Created By \e[94mThe Jatin Kalwar" | pv -qL 70
     echo -e "\e[32mFor Any Queries Contact Me!!!"
