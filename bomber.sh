@@ -1,4 +1,7 @@
 #!/bin/bash
+## Coded by the jatin kalwar
+##Don't steal my code read license
+## if you use any part of code then give me credit
 
 detect_distro() {
    if [[ "$OSTYPE" == linux-android* ]]; then
