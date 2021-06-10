@@ -245,7 +245,7 @@ echo -e "\e[92m[\e[91m0\e[92m]\e[93m Exit\e[93m"
           figlet  Anon. Sms | lolcat
           echo 'Created by The Jatin Kalwar' | lolcat
 	  echo ' ' | lolcat
-	  echo -e "\e[31mNOTICE :- \e[93mYOU CAN SEND ONLY ONE SMS PER DAY"
+	  echo -e "\e[31mNOTE :- \e[93mYOU CAN SEND ONLY ONE SMS PER DAY"
           echo ' ' | lolcat
         fi
         $PYTHON AnonSMS.py
