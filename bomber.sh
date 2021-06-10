@@ -21,6 +21,33 @@ distro="$(source /etc/os-release && echo $ID)"
         pause() {
     read -n1 -r -p "Press any key to continue..." key
 }
+
+ban()  {
+ echo -e '\e[93m               
+                         __________
+                      .~#########%%;~.
+                     /############%%;`\
+                    /######/~\/~\%%;,;,\
+                   |#######\    /;;;;.,.|
+                   |#########\/%;;;;;.,.|
+          XX       |##/~~\####%;;;/~~\;,|       XX
+        XX..X      |#|  o  \##%;/  o  |.|      X..XX
+      XX.....X     |##\____/##%;\____/.,|     X.....XX
+ XXXXX.....XX      \#########/\;;;;;;,, /      XX.....XXXXX
+X |......XX%,.@      \######/%;\;;;;, /      @#%,XX......| X
+X |.....X  @#%,.@     |######%%;;;;,.|     @#%,.@  X.....| X'
+echo -e '\e[92mX  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
+ X# \.X        @#%,.@   M-Bomber2.O    @#%,.@        
+                @#%,.@              @#%,.@          
+                  @#%,.@          @#%,.@            
+                     @#%,.@      @#%,.@             
+                       @#%.,@  @#%,.@              
+                        JATIN KALWAR
+                INSTAGRAM:- YOURHACKINHOUSE
+                    
+'
+}
+
   upd(){
 if [ -d "$HOME/m-bomber2.O" ];
 then
@@ -211,9 +238,8 @@ echo -e "\e[92m[\e[91m0\e[92m]\e[93m Exit\e[93m"
         if [[ "$OSTYPE" == "linux-gnu" ]]; then
         toilet -f ivrit 'SMS BOMBER' | boxes -d cat -a hc -p h8 | lolcat
         else
-        cowsay -f eyes "Shinu" | lolcat
-    
-          figlet Anon. Sms | lolcat
+        ban
+          figlet  Anon. Sms | lolcat
           echo 'Created by The Jatin Kalwar' | lolcat
           echo ' ' | lolcat
         fi
@@ -226,8 +252,8 @@ echo -e "\e[92m[\e[91m0\e[92m]\e[93m Exit\e[93m"
         if [[ "$OSTYPE" == "linux-gnu" ]]; then
         toilet -f ivrit 'CALL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
         else
-        cowsay -f eyes "Shinu" | lolcat
-        figlet Sms bomber | lolcat
+        ban
+        figlet  Sms bomber | lolcat
         echo 'Created by The Jatin Kalwar' | lolcat
         fi
         $PYTHON Jatin.py --sms
@@ -237,8 +263,8 @@ echo -e "\e[92m[\e[91m0\e[92m]\e[93m Exit\e[93m"
         if [[ "$OSTYPE" == "linux-gnu" ]]; then
         toilet -f ivrit 'MAIL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
         else
-        cowsay -f eyes "Shinu" | lolcat
-        figlet Call bomber | lolcat
+        ban
+        figlet  Call bomber | lolcat
 echo 'Created by The Jatin Kalwar' | lolcat
         fi
         $PYTHON Jatin.py --call
@@ -248,8 +274,8 @@ echo 'Created by The Jatin Kalwar' | lolcat
         if [[ "$OSTYPE" == "linux-gnu" ]]; then
         toilet -f ivrit 'MAIL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
         else
-        cowsay -f eyes "Shinu" | lolcat
-        figlet Mail bomber | lolcat
+        ban
+        figlet  Mail bomber | lolcat
 echo 'Created by The Jatin Kalwar' | lolcat
         fi
         $PYTHON Jatin.py --mail
@@ -292,8 +318,8 @@ menu1
         if [[ "$OSTYPE" == "linux-gnu" ]]; then
         toilet -f ivrit 'FEATURES' | boxes -d cat -a hc -p h8 | lolcat
         else
-        cowsay -f eyes "Shinu" | lolcat
-        figlet features | lolcat
+        ban
+        figlet  features | lolcat
 echo 'Created by The Jatin Kalwar' | lolcat
         fi
 echo "  [+] Unlimited And Super-Fast Bombing"| lolcat
