@@ -57,10 +57,27 @@ bash bomber.sh
 
         banner() {
     clear
-    if [[ "$OSTYPE" == "linux-gnu" ]]; then
-   toilet -f ivrit 'Jatin kalwar' | boxes -d cat -a hc -p h8 | lolcat
-    else
-    cowsay -f eyes 'Shinu' | lolcat
+    echo -e '\e[93m               
+                         __________
+                      .~#########%%;~.
+                     /############%%;`\
+                    /######/~\/~\%%;,;,\
+                   |#######\    /;;;;.,.|
+                   |#########\/%;;;;;.,.|
+          XX       |##/~~\####%;;;/~~\;,|       XX
+        XX..X      |#|  o  \##%;/  o  |.|      X..XX
+      XX.....X     |##\____/##%;\____/.,|     X.....XX
+ XXXXX.....XX      \#########/\;;;;;;,, /      XX.....XXXXX
+X |......XX%,.@      \######/%;\;;;;, /      @#%,XX......| X
+X |.....X  @#%,.@     |######%%;;;;,.|     @#%,.@  X.....| X'
+echo -e '\e[92mX  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
+ X# \.X        @#%,.@   M-Bomber2.O    @#%,.@        
+                @#%,.@              @#%,.@          
+                  @#%,.@          @#%,.@            
+                     @#%,.@      @#%,.@             
+                       @#%.,@  @#%,.@              
+                        JATIN KALWAR
+'
     figlet M-BOMBER 2.O| lolcat
     fi
     echo -e "\e[31mWARNING :- \e[97mDON'T TRY TO BOMB MY NUMBER OTHERWISE YOUR IP WILL BE BAN" | pv -qL 70
