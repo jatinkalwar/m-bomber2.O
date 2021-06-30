@@ -58,9 +58,9 @@ bash bomber.sh
 
 [4] Mail bombing 
 
-[5] Visit our website
+[5] Get Access Code
 
-[6] Follow me on instagram
+[6] Visit our website
 
 [7] know about me
 
