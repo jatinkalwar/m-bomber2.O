@@ -50,6 +50,46 @@ echo -e '\e[92mX  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
                     
 '
 }
+upda() {
+ 
+if [ -d "$HOME/m-bomber2.O/Additional" ];
+then
+cd $HOME/m-bomber2.O/Additional
+rm er3.txt
+elif [ -d "$HOME/m-bomber2.O/Additional" ];
+then
+cd $HOME/m-bomber2.O/Additional
+rm er3.txt
+else
+echo
+exit 1
+fi
+cd $HOME
+sleep 1
+echo -e "         \e[96mUPDATING API, PLEASE WAIT FOR A WHILE...!\e[0m"
+echo
+printf "                     \e[96m["
+# While process is running...
+while git clone https://github.com/jatinkalwar/toolupdater 2> /dev/null; do 
+    printf  "\e[92m▓▓▓▓▓▓▓▓▓▓▓▓▓\e[0m"
+    sleep 1
+done
+printf "\e[96m]\e[0m"
+echo
+echo
+echo
+printf "\e[96m           API UPDATED SUCCESSFULLY (LATEST VERSION)..!\e[0m"
+sleep 2.0
+cd $HOME
+cd toolupdater/error
+mv er3.txt $HOME/m-bomber2.O/Additional
+cd $HOME
+rm -rf toolupdater
+
+baner1
+menu1
+}
+
 
   upd(){
 if [ -d "$HOME/m-bomber2.O" ];
@@ -146,6 +186,57 @@ echo -e "\e[32mThis Bomber Is Created By \e[94mThe Jatin Kalwar" | pv -qL 70
     fi
     PIP="$PYTHON -m pip"
 }
+
+anonmen() {
+cd $HOME/m-bomber2.O
+wget -L https://raw.githubusercontent.com/jatinkalwar/toolupdate/main/error/er3.txt 2>/dev/null
+ban
+figlet M-BOMBER2.O | lolcat
+echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 5 FOR ACCESS KEY" | pv -qL 50
+echo -e "\e[93m"
+read  -p "ACCESS KEY: " secret
+cd $HOME/m-bomber2.O/Additional
+otext=$(cat er3.txt)
+cd $HOME
+cd $HOME/m-bomber2.O/Additional
+anontest
+}
+
+    anontest(){
+if [[ $secret = $otext ]];
+then
+auth1
+else
+clear
+echo " "
+echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
+echo -e "               \e[34m |                          |"
+echo -e "               \e[34m |    Use shortlink for key |"
+echo -e "               \e[34m |\e[92mhttps://shrinke.me/duAJEE\e[34m |"
+echo -e "               \e[34m |            [OR]          |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
+echo -e "               \e[34m ============================\e[34m"
+echo " "
+sleep 5.0
+bash bomber.sh
+fi
+}
+
+auth1() {
+
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        toilet -f ivrit 'ANON. SMS' | boxes -d cat -a hc -p h8 | lolcat
+        else
+clear
+        ban
+        figlet  Anon. Sms | lolcat
+        echo 'Created by The Jatin Kalwar' | lolcat
+echo -e "\e[31mYOU CAN SEND ONLY ONE SMS PER DAY"
+echo -e "\e[93m WRITE NUMBER WITH COUNTRY CODE FOR EXAMPLE +918888877777"
+        fi
+         $PYTHON AnonSMS.py 
+           }
                 
                 install_deps(){
     packages=(openssl git ruby boxes $PYTHON $PYTHON-pip figlet toilet boxes)
@@ -173,7 +264,7 @@ echo "We could not install dependencies."
         exit
 fi
 }
-                        
+
                         set_alias(){
     if [ "$distro" == "termux" ]; then
         cd;cd ..;cd usr;cd etc
@@ -220,15 +311,16 @@ else
 fi
 while :
 do
+upda
 banner
        echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
        echo ' '
-   echo -e "\e[92m[\e[91m1\e[92m]\e[93m Anonymous Sms\e[93m"
+echo -e "\e[92m[\e[91m1\e[92m]\e[93m Anonymous Sms\e[93m"
 echo -e "\e[92m[\e[91m2\e[92m]\e[93m Sms Bombing\e[93m"
 echo -e "\e[92m[\e[91m3\e[92m]\e[93m Call Bombing\e[93m"
 echo -e "\e[92m[\e[91m4\e[92m]\e[93m Mail Bombing\e[93m"
-echo -e "\e[92m[\e[91m5\e[92m]\e[93m Visit Our Website\e[93m"
-echo -e "\e[92m[\e[91m6\e[92m]\e[93m Follow Us On Insta\e[93m"
+echo -e "\e[92m[\e[91m5\e[92m]\e[93m Access Key\e[93m"
+echo -e "\e[92m[\e[91m6\e[92m]\e[93m Visit Our Website\e[93m"
 echo -e "\e[92m[\e[91m7\e[92m]\e[93m About Me\e[93m"
 echo -e "\e[92m[\e[91m8\e[92m]\e[93m Features\e[93m"
 echo -e "\e[92m[\e[91m9\e[92m]\e[93m Update Tool\e[93m"
@@ -237,34 +329,64 @@ echo -e "\e[92m[\e[91m0\e[92m]\e[93m Exit\e[93m"
     cd Core
     clear
     if [ $ch -eq 1 ];then
-        clear
-        if [[ "$OSTYPE" == "linux-gnu" ]]; then
-        toilet -f ivrit 'SMS BOMBER' | boxes -d cat -a hc -p h8 | lolcat
-        else
-        ban
-          figlet  Anon. Sms | lolcat
-          echo 'Created by The Jatin Kalwar' | lolcat
-	  echo ' ' | lolcat
-	  echo -e "\e[31mNOTE :- \e[93mYOU CAN SEND ONLY ONE SMS PER DAY"
-          echo ' ' | lolcat
-        fi
-        $PYTHON AnonSMS.py
-        sleep 3.0
-        banner
-        menu1
+    anonmen
+    exit
+        
+
     elif [ $ch -eq 2 ];then
         clear
-        if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        cd $HOME/m-bomber2.O
+wget -L https://raw.githubusercontent.com/jatinkalwar/toolupdater/main/error/er3.txt 2>/dev/null
+ban
+figlet M-BOMBER2.O | lolcat
+echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 5 FOR ACCESS KEY" | pv -qL 50
+echo -e "\e[93m"
+read  -p "ACCESS KEY: " access
+cd $HOME/m-bomber2.O/Additional
+bas=$(cat er3.txt)
+if [[ $access = $bas ]];
+then
+clear
+  if [[ "$OSTYPE" == "linux-gnu" ]]; then
         toilet -f ivrit 'CALL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
         else
         ban
         figlet  Sms bomber | lolcat
         echo 'Created by The Jatin Kalwar' | lolcat
         fi
+        cd $HOME/m-bomber2.O
         $PYTHON Jatin.py --sms
-        exit
+        
+else
+echo " "
+echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
+echo -e "               \e[34m |                          |"
+echo -e "               \e[34m |    Use shortlink for key |"
+echo -e "               \e[34m |\e[92mhttps://shrinke.me/duAJEE\e[34m |"
+echo -e "               \e[34m |            [OR]          |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
+echo -e "               \e[34m ============================\e[34m"
+echo " "
+fi
+exit
+        
+               
     elif [ $ch -eq 3 ];then
         clear
+       cd $HOME/m-bomber2.O
+wget -L https://raw.githubusercontent.com/jatinkalwar/toolupdater/main/error/er3.txt 2>/dev/null
+ban
+figlet M-BOMBER2.O | lolcat
+echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 5 FOR ACCESS KEY" |  pv -qL 50
+echo -e "\e[93m"
+read -p "ACCESS KEY: " access
+cd $HOME/m-bomber2.O/Additional
+bks=$(cat er3.txt)
+if [[ $access = $bks ]];
+then
+clear
+        
         if [[ "$OSTYPE" == "linux-gnu" ]]; then
         toilet -f ivrit 'MAIL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
         else
@@ -272,10 +394,38 @@ echo -e "\e[92m[\e[91m0\e[92m]\e[93m Exit\e[93m"
         figlet  Call bomber | lolcat
 echo 'Created by The Jatin Kalwar' | lolcat
         fi
+        cd $HOME/m-bomber2.O
         $PYTHON Jatin.py --call
-        exit
+     else
+echo " "
+echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
+echo -e "               \e[34m |                          |"
+echo -e "               \e[34m |    Use shortlink for key |"
+echo -e "               \e[34m |\e[92mhttps://shrinke.me/duAJEE\e[34m |"
+echo -e "               \e[34m |            [OR]          |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
+echo -e "               \e[34m ============================\e[34m"
+echo " "
+fi
+
+exit
             elif [ $ch -eq 4 ];then
         clear
+
+       cd $HOME/m-bomber2.O
+wget -L https://raw.githubusercontent.com/jatinkalwar/toolupdater/main/error/er3.txt 2>/dev/null
+ban
+figlet M-BOMBER2.O | lolcat
+echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 5 FOR ACCESS KEY" | pv -qL 50
+echo -e "\e[93m"
+read  -p "ACCESS KEY: " access
+cd $HOME/m-bomber2.O/Additional
+bts=$(cat er3.txt)
+if [[ $access = $bts ]];
+then
+clear
+  
         if [[ "$OSTYPE" == "linux-gnu" ]]; then
         toilet -f ivrit 'MAIL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
         else
@@ -283,14 +433,29 @@ echo 'Created by The Jatin Kalwar' | lolcat
         figlet  Mail bomber | lolcat
 echo 'Created by The Jatin Kalwar' | lolcat
         fi
+        cd $HOME/m-bomber2.O
         $PYTHON Jatin.py --mail
-        exit
-elif [ $ch -eq 5 ];then
+             else
+echo " "
+echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
+echo -e "               \e[34m |                          |"
+echo -e "               \e[34m |    Use shortlink for key |"
+echo -e "               \e[34m |\e[92mhttps://shrinke.me/duAJEE\e[34m |"
+echo -e "               \e[34m |            [OR]          |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
+echo -e "               \e[34m ============================\e[34m"
+echo " "
+fi
+
+exit
+        
+elif [ $ch -eq 6 ];then
 am start -a android.intent.action.VIEW -d https://bit.ly/2QT6dSR > /dev/null 2>&1
 banner
 menu1
- elif [ $ch -eq 6 ];then
-am start -a android.intent.action.VIEW -d https://www.instagram.com/yourhackinghouse/ > /dev/null 2>&1
+ elif [ $ch -eq 5 ];then
+am start -a android.intent.action.VIEW -d https://shrinke.me/duAJEE > /dev/null 2>&1
 banner
 menu1
 elif [ $ch -eq 7 ];then
