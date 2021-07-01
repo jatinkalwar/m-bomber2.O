@@ -213,7 +213,7 @@ echo -e "               \e[34m ============================\e[34m"
 echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
 echo -e "               \e[34m |                          |"
 echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://shrinke.me/duAJEE\e[34m |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
 echo -e "               \e[34m |            [OR]          |"
 echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
 echo -e "               \e[34m ============================\e[34m"
@@ -363,7 +363,7 @@ echo -e "               \e[34m ============================\e[34m"
 echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
 echo -e "               \e[34m |                          |"
 echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://shrinke.me/duAJEE\e[34m |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
 echo -e "               \e[34m |            [OR]          |"
 echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
 echo -e "               \e[34m ============================\e[34m"
@@ -402,7 +402,7 @@ echo -e "               \e[34m ============================\e[34m"
 echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
 echo -e "               \e[34m |                          |"
 echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://shrinke.me/duAJEE\e[34m |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
 echo -e "               \e[34m |            [OR]          |"
 echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
 echo -e "               \e[34m ============================\e[34m"
@@ -441,7 +441,7 @@ echo -e "               \e[34m ============================\e[34m"
 echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
 echo -e "               \e[34m |                          |"
 echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://shrinke.me/duAJEE\e[34m |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
 echo -e "               \e[34m |            [OR]          |"
 echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
 echo -e "               \e[34m ============================\e[34m"
@@ -455,7 +455,7 @@ am start -a android.intent.action.VIEW -d https://bit.ly/2QT6dSR > /dev/null 2>&
 banner
 menu1
  elif [ $ch -eq 5 ];then
-am start -a android.intent.action.VIEW -d https://shrinke.me/duAJEE > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://gplinks.co/HsAVzF > /dev/null 2>&1
 banner
 menu1
 elif [ $ch -eq 7 ];then
