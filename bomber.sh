@@ -192,7 +192,7 @@ cd $HOME/m-bomber2.O
 wget -L https://raw.githubusercontent.com/jatinkalwar/toolupdate/main/error/er3.txt 2>/dev/null
 ban
 figlet M-BOMBER2.O | lolcat
-echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 5 FOR ACCESS KEY" | pv -qL 50
+echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 2 FOR ACCESS KEY" | pv -qL 50
 echo -e "\e[93m"
 read  -p "ACCESS KEY: " secret
 cd $HOME/m-bomber2.O/Additional
@@ -265,6 +265,325 @@ echo "We could not install dependencies."
 fi
 }
 
+jat() {
+        echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
+       echo ' '
+echo -e "\e[92m[\e[91m1\e[92m]\e[93m Start\e[93m"
+echo -e "\e[92m[\e[91m2\e[92m]\e[93m Access Key\e[93m"
+echo -e "\e[92m[\e[91m3\e[92m]\e[93m Visit Our Website\e[93m"
+echo -e "\e[92m[\e[91m4\e[92m]\e[93m About Me\e[93m"
+echo -e "\e[92m[\e[91m5\e[92m]\e[93m Features\e[93m"
+echo -e "\e[92m[\e[91m6\e[92m]\e[93m Update Tool\e[93m"
+echo -e "\e[92m[\e[91m0\e[92m]\e[93m Exit\e[93m"
+    read ch
+    cd Core
+    clear
+    if [ $ch -eq 1 ];
+    then
+   bombs
+elif [ $ch -eq 3 ];then
+am start -a android.intent.action.VIEW -d https://bit.ly/2QT6dSR > /dev/null 2>&1
+clear
+banner
+jat
+ elif [ $ch -eq 2 ];then
+am start -a android.intent.action.VIEW -d https://gplinks.co/HsAVzF > /dev/null 2>&1
+clear
+banner
+jat
+elif [ $ch -eq 4 ];then
+echo -e '\e[91m
+                     ──▐─▌──▐─▌──
+                     ─▐▌─▐▌▐▌─▐▌─
+                     ─█▄▀▄██▄▀▄█─
+                     ──▄──██▌─▄──
+                     ▄▀─█▀██▀█─▀▄
+                     ▐▌▐▌─▐▌─▐▌▐▌
+                     ─▐─█────█─▌─
+                     ────▌──▐────
+'
+echo -e "\e[93m                    CALL ME \e[92mJATT" | pv -qL 10
+echo -e "\e[93m               REAL NAME \e[92mJATIN KALWAR" | pv -qL 10
+echo -e "\e[93m             IAM FROM \e[92mYOURHACKINGHOUSE" | pv -qL 10
+echo -e "\e[93m        IM A \e[92mGEEK\e[93m WITH LOTS OF EXCITEMENT" | pv -qL 10
+echo -e "\e[93m       HOPE YOU LIKE THIS MASTER BOMBER 2.O" | pv -qL 10
+echo -e "\e[93m         OOPS... I TALK A LOT SRY FOR THAT " | pv -qL 10
+echo -e "\e[93m              JOIN GROUPS ON \e[92mWHATS' APP" | pv -qL 10
+echo -e "\e[93m        MY WEBSITE:\e[92m https://bit.ly/2QT6dSR \e[0m" | pv -qL 10
+
+echo -e "\e[92m                BYEE.............." | pv -qL 10
+sleep 8.0
+clear
+banner
+jat
+      
+  elif [ $ch -eq 5 ];then
+        clear
+        if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        toilet -f ivrit 'FEATURES' | boxes -d cat -a hc -p h8 | lolcat
+        else
+        ban
+        figlet  features | lolcat
+echo 'Created by The Jatin Kalwar' | lolcat
+        fi
+echo "  [+] Unlimited And Super-Fast Bombing"| lolcat
+	echo "  [+] Colourful Interface"| lolcat
+	echo "  [+] Anonymous sms" | lolcat
+	echo "  [+] SMS Bombing "| lolcat
+	echo "  [+] Call Bombing "| lolcat
+	echo "  [+] Mail Bombing "| lolcat
+	#echo "  [+] Custom SMS Sending"| lolcat
+	echo "  [+] Easy To Use And Embed in Code"| lolcat
+	echo ""
+	echo -e "\e[1;31m This Script is Only For Educational Purposes or To Prank.\e[0m"| lolcat
+	echo -e "\e[1;31m Do not Use This To Harm Others. \e[0m"| lolcat
+	echo -e "\e[1;31m I Am Not Responsible For The Misuse Of The Script. \e[0m"| lolcat
+	echo  " "
+	echo -e "\e[4;31m That's All !!!\e[0m"| lolcat
+	echo -e "\e[4;34m This Bomber Was Created By Jatin kalwar \e[0m" | lolcat
+	echo -e "\e[1;34m For Any Queries Contact Me!!!\e[0m"| lolcat
+	echo -e "\e[1;32m   Instagram:- Yourhackinghouse\e[0m"| lolcat
+	sleep 3.0
+	clear
+	banner
+	jat
+
+	 elif [ $ch -eq 6 ];then
+    upd
+    elif [ $ch -eq 0 ];then
+        ban
+        figlet Exit | lolcat
+        echo ' BYEEEEEE............ ' | lolcat
+        exit
+    else
+        echo -e "\e[4;32m Invalid Input !!! \e[0m"
+        pause
+    fi
+}
+
+
+bombs() {
+    clear
+    banner
+    echo ' '
+echo -e "\e[92m[\e[91m1\e[92m]\e[93m Anonymous Sms\e[93m"
+echo -e "\e[92m[\e[91m2\e[92m]\e[93m Mass Bombing\e[93m"
+echo -e "\e[92m[\e[91m3\e[92m]\e[93m Sms Bombing\e[93m"
+echo -e "\e[92m[\e[91m4\e[92m]\e[93m Call Bombing\e[93m"
+echo -e "\e[92m[\e[91m5\e[92m]\e[93m Mail Bombing\e[93m"
+echo -e "\e[92m[\e[91m6\e[92m]\e[93m Whatsapp\e[93m"
+echo -e "\e[92m[\e[91m7\e[92m]\e[93m Access Key\e[93m"
+echo -e "\e[92m[\e[91m8\e[92m]\e[93m Back\e[93m"
+echo -e "\e[92m[\e[91m0\e[92m]\e[93m Exit\e[93m"
+ read ch
+    cd Core
+    clear
+    if [ $ch -eq 1 ];then
+    anonmen
+    exit
+    
+elif [ $ch -eq 2 ];then
+        clear
+ban
+figlet M-BOMBER2.O | lolcat
+echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 2 FOR ACCESS KEY" | pv -qL 50 
+echo -e "\e[93m"
+read  -p "ACCESS KEY: " access
+cd $HOME/m-bomber2.O/Additional
+bas=$(cat er3.txt)
+if [[ $access = $bas ]];
+then
+clear
+  if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        toilet -f ivrit 'MASS BOMBER' | boxes -d cat -a hc -p h8 | lolcat
+        else
+        ban
+        figlet  MASS BOMBER | lolcat
+        echo 'Created by The Jatin Kalwar' | lolcat
+        fi
+        echo -e  "WE ARE WORKING ON IT. WE WILL UPDATE IT SOON...THANK YOU\e[93m"
+        sleep 5.0
+bombs
+else
+echo " "
+echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
+echo -e "               \e[34m |                          |"
+echo -e "               \e[34m |    Use shortlink for key |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
+echo -e "               \e[34m |            [OR]          |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
+echo -e "               \e[34m ============================\e[34m"
+echo " "
+fi
+sleep 5.0
+bombs
+
+    elif [ $ch -eq 8 ]; then
+    clear
+    banner 
+    jat
+    elif [ $ch -eq 3 ];then
+        clear
+ban
+figlet M-BOMBER2.O | lolcat
+echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 2 FOR ACCESS KEY" | pv -qL 50
+echo -e "\e[93m"
+read  -p "ACCESS KEY: " access
+cd $HOME/m-bomber2.O/Additional
+bas=$(cat er3.txt)
+if [[ $access = $bas ]];
+then
+clear
+  if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        toilet -f ivrit 'CALL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
+        else
+        ban
+        figlet  Sms bomber | lolcat
+        echo 'Created by The Jatin Kalwar' | lolcat
+        fi
+        cd $HOME/m-bomber2.O
+        $PYTHON Jatin.py --sms
+else
+echo " "
+echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
+echo -e "               \e[34m |                          |"
+echo -e "               \e[34m |    Use shortlink for key |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
+echo -e "               \e[34m |            [OR]          |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
+echo -e "               \e[34m ============================\e[34m"                      echo " "
+fi
+bombs
+    elif [ $ch -eq 4 ];then
+        clear
+     
+ban
+figlet M-BOMBER2.O | lolcat
+echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 2 FOR ACCESS KEY" | pv -qL 50
+echo -e "\e[93m"
+read -p "ACCESS KEY: " access
+cd $HOME/m-bomber2.O/Additional                                                         bks=$(cat er3.txt)
+if [[ $access = $bks ]];
+then
+clear
+
+        if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        toilet -f ivrit 'MAIL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
+        else
+        ban
+        figlet  Call bomber | lolcat
+echo 'Created by The Jatin Kalwar' | lolcat
+        fi
+        cd $HOME/m-bomber2.O
+        $PYTHON Jatin.py --call
+     else
+echo " "
+echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
+echo -e "               \e[34m |                          |"
+echo -e "               \e[34m |    Use shortlink for key |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
+echo -e "               \e[34m |            [OR]          |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
+echo -e "               \e[34m ============================\e[34m"
+echo " "
+fi
+sleep 5.0
+bombs
+            elif [ $ch -eq 5 ];then
+        clear
+ban
+figlet M-BOMBER2.O | lolcat
+echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 2 FOR ACCESS KEY" | pv -qL 50
+echo -e "\e[93m"
+read  -p "ACCESS KEY: " access
+cd $HOME/m-bomber2.O/Additional
+bts=$(cat er3.txt)
+if [[ $access = $bts ]];
+then
+clear
+
+        if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        toilet -f ivrit 'MAIL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
+        else
+        ban
+        figlet  Mail bomber | lolcat  
+echo 'Created by The Jatin Kalwar' | lolcat
+        fi
+        cd $HOME/m-bomber2.O
+        $PYTHON Jatin.py --mail
+             else
+echo " "
+echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
+echo -e "               \e[34m |                          |"
+echo -e "               \e[34m |    Use shortlink for key |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
+echo -e "               \e[34m |            [OR]          |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
+echo -e "               \e[34m ============================\e[34m"
+echo " "
+fi
+sleep 5.0
+bombs
+
+elif [ $ch -eq 7 ];then
+am start -a android.intent.action.VIEW -d https://gplinks.co/HsAVzF > /dev/null 2>&1
+bombs
+
+elif [ $ch -eq 6 ];then
+        clear
+ban
+figlet M-BOMBER2.O | lolcat
+echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 2 FOR ACCESS KEY" | pv -qL 50 
+echo -e "\e[93m"
+read  -p "ACCESS KEY: " access
+cd $HOME/m-bomber2.O/Additional
+bas=$(cat er3.txt)
+if [[ $access = $bas ]];
+then
+clear
+  if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        toilet -f ivrit 'WHATSAPP' | boxes -d cat -a hc -p h8 | lolcat
+        else
+        ban
+        figlet  WHATSAPP | lolcat
+        echo 'Created by The Jatin Kalwar' | lolcat
+        fi
+        echo -e  "WE ARE WORKING ON IT. WE WILL UPDATE IT SOON...THANK YOU\e[93m"
+        sleep 5.0
+bombs
+else
+echo " "
+echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
+echo -e "               \e[34m |                          |"
+echo -e "               \e[34m |    Use shortlink for key |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
+echo -e "               \e[34m |            [OR]          |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
+echo -e "               \e[34m ============================\e[34m"
+echo " "
+fi
+sleep 5.0
+bombs
+
+ elif [ $ch -eq 0 ];then
+        ban
+        figlet Exit | lolcat
+        echo ' BYEEEEEE............ ' | lolcat
+        exit
+    else
+        echo -e "\e[4;32m Invalid Input !!! \e[0m"
+        pause
+    fi
+   exit
+   }
+
+   
+          
                         set_alias(){
     if [ "$distro" == "termux" ]; then
         cd;cd ..;cd usr;cd etc
@@ -309,216 +628,6 @@ else
     set_alias
     pause
 fi
-while :
-do
 upda
 banner
-       echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
-       echo ' '
-echo -e "\e[92m[\e[91m1\e[92m]\e[93m Anonymous Sms\e[93m"
-echo -e "\e[92m[\e[91m2\e[92m]\e[93m Sms Bombing\e[93m"
-echo -e "\e[92m[\e[91m3\e[92m]\e[93m Call Bombing\e[93m"
-echo -e "\e[92m[\e[91m4\e[92m]\e[93m Mail Bombing\e[93m"
-echo -e "\e[92m[\e[91m5\e[92m]\e[93m Access Key\e[93m"
-echo -e "\e[92m[\e[91m6\e[92m]\e[93m Visit Our Website\e[93m"
-echo -e "\e[92m[\e[91m7\e[92m]\e[93m About Me\e[93m"
-echo -e "\e[92m[\e[91m8\e[92m]\e[93m Features\e[93m"
-echo -e "\e[92m[\e[91m9\e[92m]\e[93m Update Tool\e[93m"
-echo -e "\e[92m[\e[91m0\e[92m]\e[93m Exit\e[93m"
-    read ch
-    cd Core
-    clear
-    if [ $ch -eq 1 ];then
-    anonmen
-    exit
-        
-
-    elif [ $ch -eq 2 ];then
-        clear
-        cd $HOME/m-bomber2.O
-wget -L https://raw.githubusercontent.com/jatinkalwar/toolupdater/main/error/er3.txt 2>/dev/null
-ban
-figlet M-BOMBER2.O | lolcat
-echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 5 FOR ACCESS KEY" | pv -qL 50
-echo -e "\e[93m"
-read  -p "ACCESS KEY: " access
-cd $HOME/m-bomber2.O/Additional
-bas=$(cat er3.txt)
-if [[ $access = $bas ]];
-then
-clear
-  if [[ "$OSTYPE" == "linux-gnu" ]]; then
-        toilet -f ivrit 'CALL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
-        else
-        ban
-        figlet  Sms bomber | lolcat
-        echo 'Created by The Jatin Kalwar' | lolcat
-        fi
-        cd $HOME/m-bomber2.O
-        $PYTHON Jatin.py --sms
-        
-else
-echo " "
-echo -e "               \e[34m ============================\e[34m"
-echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
-echo -e "               \e[34m |                          |"
-echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
-echo -e "               \e[34m |            [OR]          |"
-echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
-echo -e "               \e[34m ============================\e[34m"
-echo " "
-fi
-exit
-        
-               
-    elif [ $ch -eq 3 ];then
-        clear
-       cd $HOME/m-bomber2.O
-wget -L https://raw.githubusercontent.com/jatinkalwar/toolupdater/main/error/er3.txt 2>/dev/null
-ban
-figlet M-BOMBER2.O | lolcat
-echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 5 FOR ACCESS KEY" |  pv -qL 50
-echo -e "\e[93m"
-read -p "ACCESS KEY: " access
-cd $HOME/m-bomber2.O/Additional
-bks=$(cat er3.txt)
-if [[ $access = $bks ]];
-then
-clear
-        
-        if [[ "$OSTYPE" == "linux-gnu" ]]; then
-        toilet -f ivrit 'MAIL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
-        else
-        ban
-        figlet  Call bomber | lolcat
-echo 'Created by The Jatin Kalwar' | lolcat
-        fi
-        cd $HOME/m-bomber2.O
-        $PYTHON Jatin.py --call
-     else
-echo " "
-echo -e "               \e[34m ============================\e[34m"
-echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
-echo -e "               \e[34m |                          |"
-echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
-echo -e "               \e[34m |            [OR]          |"
-echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
-echo -e "               \e[34m ============================\e[34m"
-echo " "
-fi
-
-exit
-            elif [ $ch -eq 4 ];then
-        clear
-
-       cd $HOME/m-bomber2.O
-wget -L https://raw.githubusercontent.com/jatinkalwar/toolupdater/main/error/er3.txt 2>/dev/null
-ban
-figlet M-BOMBER2.O | lolcat
-echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 5 FOR ACCESS KEY" | pv -qL 50
-echo -e "\e[93m"
-read  -p "ACCESS KEY: " access
-cd $HOME/m-bomber2.O/Additional
-bts=$(cat er3.txt)
-if [[ $access = $bts ]];
-then
-clear
-  
-        if [[ "$OSTYPE" == "linux-gnu" ]]; then
-        toilet -f ivrit 'MAIL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
-        else
-        ban
-        figlet  Mail bomber | lolcat
-echo 'Created by The Jatin Kalwar' | lolcat
-        fi
-        cd $HOME/m-bomber2.O
-        $PYTHON Jatin.py --mail
-             else
-echo " "
-echo -e "               \e[34m ============================\e[34m"
-echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
-echo -e "               \e[34m |                          |"
-echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/HsAVzF\e[34m |"
-echo -e "               \e[34m |            [OR]          |"
-echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
-echo -e "               \e[34m ============================\e[34m"
-echo " "
-fi
-
-exit
-        
-elif [ $ch -eq 6 ];then
-am start -a android.intent.action.VIEW -d https://bit.ly/2QT6dSR > /dev/null 2>&1
-banner
-menu1
- elif [ $ch -eq 5 ];then
-am start -a android.intent.action.VIEW -d https://gplinks.co/HsAVzF > /dev/null 2>&1
-banner
-menu1
-elif [ $ch -eq 7 ];then
-echo -e '\e[91m
-                     ──▐─▌──▐─▌──
-                     ─▐▌─▐▌▐▌─▐▌─
-                     ─█▄▀▄██▄▀▄█─
-                     ──▄──██▌─▄──
-                     ▄▀─█▀██▀█─▀▄
-                     ▐▌▐▌─▐▌─▐▌▐▌
-                     ─▐─█────█─▌─
-                     ────▌──▐────
-'
-echo -e "\e[93m                    CALL ME \e[92mJATT" | pv -qL 10
-echo -e "\e[93m               REAL NAME \e[92mJATIN KALWAR" | pv -qL 10
-echo -e "\e[93m             IAM FROM \e[92mYOURHACKINGHOUSE" | pv -qL 10
-echo -e "\e[93m        IM A \e[92mGEEK\e[93m WITH LOTS OF EXCITEMENT" | pv -qL 10
-echo -e "\e[93m       HOPE YOU LIKE THIS MASTER BOMBER 2.O" | pv -qL 10
-echo -e "\e[93m         OOPS... I TALK A LOT SRY FOR THAT " | pv -qL 10
-echo -e "\e[93m              JOIN GROUPS ON \e[92mWHATS' APP" | pv -qL 10
-echo -e "\e[93m        MY WEBSITE:\e[92m https://bit.ly/2QT6dSR \e[0m" | pv -qL 10
-
-echo -e "\e[92m                BYEE.............." | pv -qL 10
-sleep 8.0
-baner1
-menu1
-      
-  elif [ $ch -eq 8 ];then
-        clear
-        if [[ "$OSTYPE" == "linux-gnu" ]]; then
-        toilet -f ivrit 'FEATURES' | boxes -d cat -a hc -p h8 | lolcat
-        else
-        ban
-        figlet  features | lolcat
-echo 'Created by The Jatin Kalwar' | lolcat
-        fi
-echo "  [+] Unlimited And Super-Fast Bombing"| lolcat
-	echo "  [+] Colourful Interface"| lolcat
-	echo "  [+] Anonymous sms" | lolcat
-	echo "  [+] SMS Bombing "| lolcat
-	echo "  [+] Call Bombing "| lolcat
-	echo "  [+] Mail Bombing "| lolcat
-	#echo "  [+] Custom SMS Sending"| lolcat
-	echo "  [+] Easy To Use And Embed in Code"| lolcat
-	echo ""
-	echo -e "\e[1;31m This Script is Only For Educational Purposes or To Prank.\e[0m"| lolcat
-	echo -e "\e[1;31m Do not Use This To Harm Others. \e[0m"| lolcat
-	echo -e "\e[1;31m I Am Not Responsible For The Misuse Of The Script. \e[0m"| lolcat
-	echo  " "
-	echo -e "\e[4;31m That's All !!!\e[0m"| lolcat
-	echo -e "\e[4;34m This Bomber Was Created By Jatin kalwar \e[0m" | lolcat
-	echo -e "\e[1;34m For Any Queries Contact Me!!!\e[0m"| lolcat
-	echo -e "\e[1;32m   Instagram:- Yourhackinghouse\e[0m"| lolcat
-	sleep 3.0
-	bash bomber.sh
-	 elif [ $ch -eq 9 ];then
-    upd
-    elif [ $ch -eq 0 ];then
-        banner
-        echo ' BYEEEEEE............ ' | lolcat
-        exit
-    else
-        echo -e "\e[4;32m Invalid Input !!! \e[0m"
-        pause
-    fi
-done
+jat
