@@ -731,7 +731,6 @@ bombs
 
 
                                     banner
-pause
 detect_distro
 init_environ
 if [ -f .update ];then
@@ -744,7 +743,7 @@ else
     echo 'This Script Was Made By Jatin Kalwar' > .update
     echo 'Requirements Installed....'
     set_alias
-    pause
+  
 fi
 upda
 banner
