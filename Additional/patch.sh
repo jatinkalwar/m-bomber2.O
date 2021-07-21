@@ -46,6 +46,6 @@ sleep 4.0
 cd $HOME/m-bomber2.O
 bash bomber.sh
 echo
-fi
+
 }
 bbox
