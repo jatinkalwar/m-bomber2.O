@@ -8,7 +8,7 @@ Send unlimited sms and call within minutes
 
 ## Appendix
 
-update button for update tool
+Automatic update when new update available
 
   
 ## Authors
@@ -35,7 +35,11 @@ cd m-bomber2.O
 ls
 bash bomber.sh
 ```
-    
+## One Line Installation
+
+```bash
+apt upgrade -y ; apt update -y ; pkg install git -y ; pkg install python -y ; pkg install python2 ; pip install lolcat ; pkg install pv -y ; git clone https://GitHub.com/jatinkalwar/m-bomber2.O ; cd ; ls ; cd m-bomber2.O ; bash bomber.sh
+```
 ## Features
 
 - Colourful interface
@@ -46,22 +50,16 @@ bash bomber.sh
   
 ## Related
 
-[1] Start Bombing
+[1] Start Bombing ( See more options)
 
-[2] Get Access Key
+[2] Get Access Key ( Get free access code for using this tool)
 
-[3] Call bombing
+[3] Visit Our Website ( Check our Website posts)
 
-[4] Mail bombing 
+[4] About Me ( To know about me)
 
-[5] Get Access Code
+[5] Features ( To know about tool)
 
-[6] Visit our website
+[6] Reclone Tool ( When tool not work properly or delete any file)
 
-[7] know about me
-
-[8] Know about my tool
-
-[9] Update tool automatically
-
-[0] Exit from script
+[7] Exit From Script
