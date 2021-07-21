@@ -9,9 +9,9 @@ echo
 echo
 echo
 echo
-echo -e "\e[92m            MASTER-BOMBER 2.O NEW UPDATE V1.1 IS AVAILABLE\e[0m"
+echo -e "\e[92m            MASTER-BOMBER 2.O NEW UPDATE V1.2 IS AVAILABLE\e[0m"
 echo -e "\e[96m         ╔═══════════════════════════════════════════════════╗\e[0m"
-echo -e "\e[96m         ║     \e[93mMaster-Bomber 2.O\e[96m Update Is available\e[93m V1.1\e[96m    ║\e[0m"
+echo -e "\e[96m         ║     \e[93mMaster-Bomber 2.O\e[96m Update Is available\e[93m V1.2\e[96m    ║\e[0m"
 echo -e "\e[96m         ║       To Update The \e[93mMaster-Bomber 2.O\e[96m Tool        ║\e[0m"
 echo -e "\e[96m         ║                                                   ║\e[0m"
 echo -e "\e[96m         ║               Press \e[92menter\e[96m to update\e[96m               ║\e[0m"
