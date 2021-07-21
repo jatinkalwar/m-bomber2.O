@@ -45,7 +45,7 @@ fi
 
 
 ake() {
-ecret="update v1.1"
+ecret="patch v1.1"
 cd $HOME/m-bomber2.O/Additional
 ztet=$(cat patch.txt)
 if [[ $ecret = $ztet ]];
@@ -123,7 +123,7 @@ cd $HOME
 cd toolupdater/error
 mv er3.txt $HOME/m-bomber2.O/Additional
 cd $HOME/toolupdater
-mv update.txt $HOME/m-bomber2.O/Additional
+mv update.txt patch.txt $HOME/m-bomber2.O/Additional
 cd $HOME
 rm -rf toolupdater
 
