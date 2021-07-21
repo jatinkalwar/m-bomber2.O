@@ -147,7 +147,7 @@ exit 1
 fi
 cd $HOME
 sleep 1
-echo -e "         \e[96mUPDATE IS GOING ON, PLEASE WAIT FOR A WHILE...!\e[0m"
+echo -e "         \e[96mRECLONE IS GOING ON, PLEASE WAIT FOR A WHILE...!\e[0m"
 echo
 printf "                     \e[96m["
 # While process is running...
@@ -159,7 +159,7 @@ printf "\e[96m]\e[0m"
 echo
 echo
 echo
-printf "\e[96m           UPDATE SUCCESSFULL (LATEST VERSION)..!\e[0m"
+printf "\e[96m           RECLONE SUCCESSFULL (LATEST VERSION)..!\e[0m"
 sleep 2.0
 cd $HOME
 cd m-bomber2.O
