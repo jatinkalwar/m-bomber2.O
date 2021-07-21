@@ -772,6 +772,7 @@ echo -e "               \e[34m |            [OR]          |"
 echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
 echo -e "               \e[34m ============================\e[34m"                      echo " "
 fi
+sleep 5.0
 bombs
     elif [ $ch -eq 4 ];then
         clear
