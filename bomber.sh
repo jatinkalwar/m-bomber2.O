@@ -27,7 +27,7 @@ distro="$(source /etc/os-release && echo $ID)"
 
 
 cake() {
-secret="update v1.2"
+secret="update v1.1"
 cd $HOME/m-bomber2.O/Additional
 ztext=$(cat update.txt)
 if [[ $secret = $ztext ]];
