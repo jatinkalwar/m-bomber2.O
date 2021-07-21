@@ -841,7 +841,7 @@ sleep 5.0
 bombs
 
 elif [ $ch -eq 7 ];then
-am start -a android.intent.action.VIEW -d https://gplinks.co/HsAVzF > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://gplinks.co/5dkgZ > /dev/null 2>&1
 bombs
 
 elif [ $ch -eq 6 ];then
