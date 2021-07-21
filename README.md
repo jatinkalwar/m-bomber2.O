@@ -26,7 +26,7 @@ apt update && apt upgrade
 pkg install git
 pkg install python
 pkg install python2
-pkg install lolcat
+pip install lolcat
 pkg install pv
 git clone https://github.com/jatinkalwar/m-bomber2.O
 cd
@@ -62,4 +62,4 @@ apt upgrade -y ; apt update -y ; pkg install git -y ; pkg install python -y ; pk
 
 [6] Reclone Tool ( When tool not work properly or delete any file)
 
-[7] Exit From Script
+[0] Exit From Script
