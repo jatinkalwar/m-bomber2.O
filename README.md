@@ -18,9 +18,7 @@ update button for update tool
   
 ## Screenshots
 
-![App Screenshot](https://github.com/jatinkalwar/m-bomber2.O/blob/main/Additional/Screenshot_2021-06-10-17-53-07-54.jpg)
-
-  
+![App Screenshot](https://github.com/jatinkalwar/m-bomber2.O/blob/main/Additional/Screenshot_2021-07-21-11-29-00-50_84d3000e3f4017145260f7618db1d683.jpg)  
 ## Installation 
 
 ```bash 
@@ -30,8 +28,6 @@ pkg install python
 pkg install python2
 pkg install lolcat
 pkg install pv
-pip install colorama
-pip install requests
 git clone https://github.com/jatinkalwar/m-bomber2.O
 cd
 ls
@@ -50,9 +46,9 @@ bash bomber.sh
   
 ## Related
 
-[1] Send anonymous sms
+[1] Start Bombing
 
-[2] Sms bombing
+[2] Get Access Key
 
 [3] Call bombing
 
