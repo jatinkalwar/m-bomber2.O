@@ -36,7 +36,7 @@ echo ""
 echo -e "      \e[92m[\e[93m~\e[92m]\e[36m Updating Now...\e[93m"
 sleep 2
 echo ""
-cd ..
+cd $HOME
 rm -rf m-bomber2.O
 git clone https://github.com/jatinkalwar/m-bomber2.O > /dev/null 2>&1
 cd m-bomber2.O
