@@ -45,7 +45,7 @@ fi
 
 
 ake() {
-ecret="patch v1.2"
+ecret="patch v1.3"
 cd $HOME/m-bomber2.O/Additional
 ztet=$(cat patch.txt)
 if [[ $ecret = $ztet ]];
@@ -254,7 +254,7 @@ echo -e "               \e[34m ============================\e[34m"
 echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
 echo -e "               \e[34m |                          |"
 echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/5dkgZ\e[34m |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/pI5C  \e[34m |"
 echo -e "               \e[34m |            [OR]          |"
 echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
 echo -e "               \e[34m ============================\e[34m"
@@ -517,7 +517,7 @@ clear
 banner
 jat
  elif [ $ch -eq 2 ];then
-am start -a android.intent.action.VIEW -d https://gplinks.co/5dkgZ > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://gplinks.co/pI5C > /dev/null 2>&1
 clear
 banner
 jat
@@ -726,7 +726,7 @@ echo -e "               \e[34m ============================\e[34m"
 echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
 echo -e "               \e[34m |                          |"
 echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/5dkgZ\e[34m |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/pI5C  \e[34m |"
 echo -e "               \e[34m |            [OR]          |"
 echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
 echo -e "               \e[34m ============================\e[34m"
@@ -767,7 +767,7 @@ echo -e "               \e[34m ============================\e[34m"
 echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
 echo -e "               \e[34m |                          |"
 echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/5dkgZ\e[34m |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/pI5C  \e[34m |"
 echo -e "               \e[34m |            [OR]          |"
 echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
 echo -e "               \e[34m ============================\e[34m"                      echo " "
@@ -795,7 +795,7 @@ echo -e "               \e[34m ============================\e[34m"
 echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
 echo -e "               \e[34m |                          |"
 echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/5dkgZ\e[34m |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/pI5C  \e[34m |"
 echo -e "               \e[34m |            [OR]          |"
 echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
 echo -e "               \e[34m ============================\e[34m"
@@ -831,7 +831,7 @@ echo -e "               \e[34m ============================\e[34m"
 echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
 echo -e "               \e[34m |                          |"
 echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/5dkgZ\e[34m |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/pI5C  \e[34m |"
 echo -e "               \e[34m |            [OR]          |"
 echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
 echo -e "               \e[34m ============================\e[34m"
@@ -841,7 +841,7 @@ sleep 5.0
 bombs
 
 elif [ $ch -eq 7 ];then
-am start -a android.intent.action.VIEW -d https://gplinks.co/5dkgZ > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://gplinks.co/pI5C > /dev/null 2>&1
 bombs
 
 elif [ $ch -eq 6 ];then
@@ -872,7 +872,7 @@ echo -e "               \e[34m ============================\e[34m"
 echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
 echo -e "               \e[34m |                          |"
 echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/5dkgZ\e[34m |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/pI5C  \e[34m |"
 echo -e "               \e[34m |            [OR]          |"
 echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
 echo -e "               \e[34m ============================\e[34m"
