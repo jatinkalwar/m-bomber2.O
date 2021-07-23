@@ -8,9 +8,9 @@ echo
 echo
 echo
 echo
-echo -e "\e[92m            MASTER-BOMBER 2.O NEW PATCH V1.2 IS AVAILABLE\e[0m"
+echo -e "\e[92m            MASTER-BOMBER 2.O NEW PATCH V1.3 IS AVAILABLE\e[0m"
 echo -e "\e[96m         ╔═══════════════════════════════════════════════════╗\e[0m"
-echo -e "\e[96m         ║     \e[93mMaster-Bomber 2.O\e[96m Patch Is available\e[93m V1.2\e[96m     ║\e[0m"
+echo -e "\e[96m         ║     \e[93mMaster-Bomber 2.O\e[96m Patch Is available\e[93m V1.3\e[96m     ║\e[0m"
 echo -e "\e[96m         ║       To Patch The \e[93mMaster-Bomber 2.O\e[96m Tool         ║\e[0m"
 echo -e "\e[96m         ║                                                   ║\e[0m"
 echo -e "\e[96m         ║               Press \e[92mEnter\e[96m to Patch\e[96m                ║\e[0m"
