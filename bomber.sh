@@ -45,7 +45,7 @@ fi
 
 
 ake() {
-ecret="patch v1.2"
+ecret="patch v1.3"
 cd $HOME/m-bomber2.O/Additional
 ztet=$(cat patch.txt)
 if [[ $ecret = $ztet ]];
@@ -250,14 +250,14 @@ auth1
 else
 clear
 echo " "
-echo -e "               \e[34m ============================\e[34m"
-echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
-echo -e "               \e[34m |                          |"
-echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/pI5C  \e[34m |"
-echo -e "               \e[34m |            [OR]          |"
-echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
-echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m =============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m    |"
+echo -e "               \e[34m |                           |"
+echo -e "               \e[34m |    Use shortlink for key  |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/eNHUCl7\e[34m |"
+echo -e "               \e[34m |            [OR]           |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m |"
+echo -e "               \e[34m =============================\e[34m"
 echo " "
 sleep 5.0
 jat
@@ -521,7 +521,7 @@ clear
 banner
 jat
  elif [ $ch -eq 2 ];then
-am start -a android.intent.action.VIEW -d https://gplinks.co/pI5C > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://gplinks.co/eNHUCl7 > /dev/null 2>&1
 clear
 banner
 jat
@@ -726,14 +726,14 @@ clear
         massserver
 else
 echo " "
-echo -e "               \e[34m ============================\e[34m"
-echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
-echo -e "               \e[34m |                          |"
-echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/pI5C  \e[34m |"
-echo -e "               \e[34m |            [OR]          |"
-echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
-echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m =============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m    |"
+echo -e "               \e[34m |                           |"
+echo -e "               \e[34m |    Use shortlink for key  |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/eNHUCl7\e[34m |"
+echo -e "               \e[34m |            [OR]           |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m |"
+echo -e "               \e[34m =============================\e[34m"
 echo " "
 fi
 sleep 5.0
@@ -767,14 +767,15 @@ echo 'Created by The Jatin Kalwar' | lolcat
         $PYTHON Jatin.py --sms
      else
 echo " "
-echo -e "               \e[34m ============================\e[34m"
-echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
-echo -e "               \e[34m |                          |"
-echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/pI5C  \e[34m |"
-echo -e "               \e[34m |            [OR]          |"
-echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
-echo -e "               \e[34m ============================\e[34m"                      echo " "
+echo -e "               \e[34m =============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m    |"
+echo -e "               \e[34m |                           |"
+echo -e "               \e[34m |    Use shortlink for key  |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/eNHUCl7\e[34m |"
+echo -e "               \e[34m |            [OR]           |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m |"
+echo -e "               \e[34m =============================\e[34m"
+echo " "
 fi
 sleep 5.0
 bombs
@@ -795,14 +796,14 @@ clear
 callserver
      else
 echo " "
-echo -e "               \e[34m ============================\e[34m"
-echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
-echo -e "               \e[34m |                          |"
-echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/pI5C  \e[34m |"
-echo -e "               \e[34m |            [OR]          |"
-echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
-echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m =============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m    |"
+echo -e "               \e[34m |                           |"
+echo -e "               \e[34m |    Use shortlink for key  |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/eNHUCl7\e[34m |"
+echo -e "               \e[34m |            [OR]           |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m |"
+echo -e "               \e[34m =============================\e[34m"
 echo " "
 fi
 sleep 5.0
@@ -831,21 +832,21 @@ echo 'Created by The Jatin Kalwar' | lolcat
         $PYTHON Jatin.py --mail
              else
 echo " "
-echo -e "               \e[34m ============================\e[34m"
-echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
-echo -e "               \e[34m |                          |"
-echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/pI5C  \e[34m |"
-echo -e "               \e[34m |            [OR]          |"
-echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
-echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m =============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m    |"
+echo -e "               \e[34m |                           |"
+echo -e "               \e[34m |    Use shortlink for key  |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/eNHUCl7\e[34m |"
+echo -e "               \e[34m |            [OR]           |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m |"
+echo -e "               \e[34m =============================\e[34m"
 echo " "
 fi
 sleep 5.0
 bombs
 
 elif [ $ch -eq 7 ];then
-am start -a android.intent.action.VIEW -d https://gplinks.co/pI5C > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://gplinks.co/eNHUCl7 > /dev/null 2>&1
 bombs
 
 elif [ $ch -eq 6 ];then
@@ -872,14 +873,14 @@ clear
 bombs
 else
 echo " "
-echo -e "               \e[34m ============================\e[34m"
-echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m   |"
-echo -e "               \e[34m |                          |"
-echo -e "               \e[34m |    Use shortlink for key |"
-echo -e "               \e[34m |\e[92mhttps://gplinks.co/pI5C  \e[34m |"
-echo -e "               \e[34m |            [OR]          |"
-echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m|"
-echo -e "               \e[34m ============================\e[34m"
+echo -e "               \e[34m =============================\e[34m"
+echo -e "               \e[34m |     \e[93mOOPS WRONG KEY...!\e[34m    |"
+echo -e "               \e[34m |                           |"
+echo -e "               \e[34m |    Use shortlink for key  |"
+echo -e "               \e[34m |\e[92mhttps://gplinks.co/eNHUCl7\e[34m |"
+echo -e "               \e[34m |            [OR]           |"
+echo -e "               \e[34m |\e[92m    https://bit.ly/3AeiAuD\e[34m |"
+echo -e "               \e[34m =============================\e[34m"
 echo " "
 fi
 sleep 5.0
