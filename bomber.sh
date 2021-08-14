@@ -973,7 +973,7 @@ BLUE="$(printf '\e[34m')"
 CYAN="$(printf '\e[36m')"
 
 serveron() {
-cd $HOME/m-bomber2.O
+cd $HOME/m-bomber2.O/Additional
 serverup="On"
 server=$(cat .server.txt)
 rm .server.txt 
