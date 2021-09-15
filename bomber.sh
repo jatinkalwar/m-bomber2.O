@@ -117,7 +117,7 @@ fi
 
 
 ake() {
-ecret="patch v1.3"
+ecret="patch v1.4"
 cd $HOME/m-bomber2.O/Additional
 ztet=$(cat patch.txt)
 if [[ $ecret = $ztet ]];
