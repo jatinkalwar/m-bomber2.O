@@ -22,13 +22,14 @@ Automatic update when new update available
 ## Installation 
 
 ```bash 
-apt update && apt upgrade
-pkg install git
-pkg install python
-pkg install python2
+apt update -y && apt upgrade -y
+pkg install git -y 
+pkg install python -y
+pkg install python2 -y
 pip install lolcat
-pkg install wget
-pkg install pv
+pkg install wget -y
+pkg install pv -y
+pkg install figlet -y
 git clone https://github.com/jatinkalwar/m-bomber2.O
 cd
 ls
@@ -39,7 +40,7 @@ bash bomber.sh
 ## One Line Installation
 
 ```bash
-apt upgrade -y ; apt update -y ; pkg install git -y ; pkg install python -y ; pkg install wget -y ; pkg install python2 ; pip install lolcat ; pkg install pv -y ; git clone https://GitHub.com/jatinkalwar/m-bomber2.O ; cd ; ls ; cd m-bomber2.O ; bash bomber.sh
+apt upgrade -y ; apt update -y ; pkg install git -y ; pkg install python -y ; pkg install wget -y ; pkg install python2 ; pip install lolcat ; pkg install pv -y ; pkg install figlet -y ; git clone https://GitHub.com/jatinkalwar/m-bomber2.O ; cd ; ls ; cd m-bomber2.O ; bash bomber.sh
 ```
 ## Features
 
