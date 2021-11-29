@@ -117,7 +117,7 @@ fi
 
 
 ake() {
-ecret="patch v1.5"
+ecret="patch v1.6"
 cd $HOME/m-bomber2.O/Additional
 ztet=$(cat patch.txt)
 if [[ $ecret = $ztet ]];
@@ -811,6 +811,8 @@ echo -e "\e[92m[\e[91m6\e[92m]\e[93m Features\e[93m"
 echo -e "\e[92m[\e[91m7\e[92m]\e[93m Reclone Tool\e[93m"
 echo -e "\e[92m[\e[91m8\e[92m]\e[93m Logout\e[93m"
 echo -e "\e[92m[\e[91m0\e[92m]\e[93m Exit\e[93m"
+echo ''
+echo -ne "\e[92mSelect Option\e[0m: \e[92m"
     read ch
     cd Core
     clear
@@ -1025,7 +1027,9 @@ echo -e "\e[92m[\e[91m6\e[92m]\e[93m Whatsapp\e[93m"
 echo -e "\e[92m[\e[91m7\e[92m]\e[93m Access Key\e[93m"
 echo -e "\e[92m[\e[91m8\e[92m]\e[93m Back\e[93m"
 echo -e "\e[92m[\e[91m0\e[92m]\e[93m Exit\e[93m"
- read ch
+echo ''
+echo -ne "\e[92mSelect Option\e[0m: \e[92m"
+read ch
     cd Core
     clear
     if [ $ch -eq 1 ];then
