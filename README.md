@@ -1,32 +1,34 @@
-# Master-Bomber 2.O
 
-Send unlimited sms and call within minutes
+# MASTER-BOMBER2.O
 
-(Special feature:- Anonymous sms worldwide)
-
-
+MASTER-BOMBER2.O is an online tool which can help you to prank your friends. By using this tool you can send huge amount of sms , call and email to your friends.
 
 ## Appendix
 
 Automatic update when new update available
 
-  
-## Authors
+## Features
 
-- [@Jatin Kalwar](https://www.github.com/jatinkalwar)
+- Colourful interface
+- API problen solved
+- New Anonymous Email updated
+- Cross platform
 
-  
 ## Screenshots
 
-![App Screenshot](https://github.com/jatinkalwar/m-bomber2.O/blob/main/Additional/Screenshot_2021-07-21-11-29-00-50_84d3000e3f4017145260f7618db1d683.jpg)  
-## Installation 
+![App Screenshot](https://github.com/jatinkalwar/m-bomber2.O/blob/main/Additional/Screenshot_2023-03-07-19-57-50-53_84d3000e3f4017145260f7618db1d683.jpg) ![App Screenshot](https://github.com/jatinkalwar/m-bomber2.O/blob/main/Additional/Screenshot_2023-03-07-19-57-58-87_84d3000e3f4017145260f7618db1d683.jpg) 
+## Authors
 
-```bash 
+- [@theJatinKalwar](https://www.github.com/jatinkalwar)
+
+
+##  Termux Installation
+
+Install Master-Bomber2.O in Termux
+
+```bash
 apt update -y && apt upgrade -y
 pkg install git -y 
-pkg install python -y
-pkg install python2 -y
-pip install lolcat
 pkg install wget -y
 pkg install pv -y
 pkg install figlet -y
@@ -37,31 +39,47 @@ cd m-bomber2.O
 ls
 bash bomber.sh
 ```
-## One Line Installation
+##  Termux Single Line Installation
 
 ```bash
-apt upgrade -y ; apt update -y ; pkg install git -y ; pkg install python -y ; pkg install wget -y ; pkg install python2 ; pip install lolcat ; pkg install pv -y ; pkg install figlet -y ; git clone https://GitHub.com/jatinkalwar/m-bomber2.O ; cd ; ls ; cd m-bomber2.O ; bash bomber.sh
+apt upgrade -y ; apt update -y ; pkg install git -y ; pkg install wget -y ; pkg install pv -y ; pkg install figlet -y ; git clone https://GitHub.com/jatinkalwar/m-bomber2.O ; cd ; ls ; cd m-bomber2.O ; bash bomber.sh
 ```
-## Features
 
-- Colourful interface
-- API problen solved
-- New Anonymous sms updated
-- Cross platform
+##  Linux Installation
 
-  
-## Related
+Install Master-Bomber2.O in Linux
 
-[1] Start Bombing ( See more options)
+```bash
+sudo apt-get update -y && sudo apt-get upgrade -y
+sudo apt install wget -y
+sudo apt install pv -y
+sudo apt install figlet -y
+git clone https://github.com/jatinkalwar/m-bomber2.O
+cd
+ls
+cd m-bomber2.O
+ls
+bash bomber.sh
+```
 
-[2] Get Access Key ( Get free access code for using this tool)
+##  Linux Single Line Installation
 
-[3] Visit Our Website ( Check our Website posts)
+```bash
+sudo apt-get upgrade -y ; sudo apt-get update -y ;sudo apt install wget -y ; sudo apt install pv -y ; sudo apt install figlet -y ; git clone https://GitHub.com/jatinkalwar/m-bomber2.O ; cd ; ls ; cd m-bomber2.O ; bash bomber.sh
+```
+    
+## FAQ
 
-[4] About Me ( To know about me)
+#### Tested Platform??
 
-[5] Features ( To know about tool)
+Termux , Kali and Parrot.
 
-[6] Reclone Tool ( When tool not work properly or delete any file)
+#### International Bomber?
 
-[0] Exit From Script
+Indian Bomber but International Bomber Coming Soon
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at instagram.com/Yourhackinghouse
+
