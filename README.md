@@ -33,16 +33,13 @@ pkg install wget -y
 pkg install pv -y
 pkg install figlet -y
 git clone https://github.com/jatinkalwar/m-bomber2.O
-cd
-ls
 cd m-bomber2.O
-ls
 bash bomber.sh
 ```
 ##  Termux Single Line Installation
 
 ```bash
-apt upgrade -y ; apt update -y ; pkg install git -y ; pkg install wget -y ; pkg install pv -y ; pkg install figlet -y ; git clone https://GitHub.com/jatinkalwar/m-bomber2.O ; cd ; ls ; cd m-bomber2.O ; bash bomber.sh
+apt upgrade -y ; apt update -y ; pkg install git -y ; pkg install wget -y ; pkg install pv -y ; pkg install figlet -y ; git clone https://GitHub.com/jatinkalwar/m-bomber2.O ; cd m-bomber2.O ; bash bomber.sh
 ```
 
 ##  Linux Installation
@@ -55,10 +52,7 @@ sudo apt install wget -y
 sudo apt install pv -y
 sudo apt install figlet -y
 git clone https://github.com/jatinkalwar/m-bomber2.O
-cd
-ls
 cd m-bomber2.O
-ls
 bash bomber.sh
 ```
 
