@@ -12,7 +12,7 @@ center "INSTALLATION"
 echo -e "\e[34mSTABLE CONNECTION [\e[92m✓\e[34m]\e[0m"
 sleep 1.0
 echo -e "\e[34mCHECKING ENVIRONMENT [\e[92m✓\e[34m]\e[0m"
-dpkg --configure -a
+#dpkg --configure -a
 sleep 1.0
 echo -e "\e[34mPACKAGES BEING INSTALLED WAIT....\e[0m"
 pkg install git -y >/dev/null 2>&1
