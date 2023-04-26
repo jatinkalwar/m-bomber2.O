@@ -21,8 +21,8 @@ pip install lolcat >/dev/null 2>&1
 pkg install curl -y >/dev/null 2>&1
 pkg install pv -y >/dev/null 2>&1
 pkg install figlet -y >/dev/null 2>&1
-sudo apt install figlet -y >/dev/null 2>&1
-apt install pv -y >/dev/null 2>&1
+#sudo apt install figlet -y >/dev/null 2>&1
+$apt install pv -y >/dev/null 2>&1
 
 echo -e "\e[34mPACKAGES INSTALLED [\e[92m✓\e[34m]\e[0m"
 sleep 1.0
