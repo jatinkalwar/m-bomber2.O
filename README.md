@@ -70,7 +70,7 @@ Termux , Kali and Parrot.
 
 #### International Bomber?
 
-Indian Bomber but International Bomber Coming Soon
+Indian and Pakistan Bomber but International Bomber Coming Soon
 
 
 ## Feedback
