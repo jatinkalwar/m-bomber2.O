@@ -1,7 +1,8 @@
 
 # MASTER-BOMBER2.O
 
-MASTER-BOMBER2.O is a bash code which can help you to prank your friends. By using this tool you can send huge amount of sms , call and email to your friends.
+MASTER-BOMBER2.O is a Bash code Which can help you to prank your friends. By using this tool You Can Send Anonymous Email and Custom Email and send huge amount of sms , call , Whatsapp and email to your friends.
+
 
 ## Appendix
 
@@ -10,7 +11,7 @@ Automatic update when new update available
 ## Features
 
 - Colourful interface
-- API problen solved
+- API problem solved
 - New Anonymous Email updated
 - Cross platform
 
@@ -66,11 +67,11 @@ sudo apt-get upgrade -y ; sudo apt-get update -y ;sudo apt install wget -y ; sud
 
 #### Tested Platform??
 
-Termux , Kali and Parrot.
+Termux , Kali Linux and Parrot Security.
 
 #### International Bomber?
 
-Indian and Pakistan Bomber but International Bomber Coming Soon
+Indian, Pakistan and Bangladesh Bomber but International Bomber Coming Soon
 
 
 ## Feedback
