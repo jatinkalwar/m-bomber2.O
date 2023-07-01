@@ -31,4 +31,4 @@ echo -e "\e[34mFINALIZING MASTER-BOMBER2.O [\e[92m✓\e[34m]\e[0m"
 sleep 2.0
 echo -e "\e[34mLAUNCHING.....[\e[92m✓\e[34m]\e[0m"
 sleep 2.0
-rm setup
+rm $HOME/m-bomber2.O/setup >/dev/null 2>&1
