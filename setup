@@ -25,7 +25,7 @@ python -m pip install requests >/dev/null 2>&1
 pkg install curl -y >/dev/null 2>&1
 pkg install pv -y >/dev/null 2>&1
 pkg install figlet -y >/dev/null 2>&1
-pkg install python -y >/dev/null 2>&1
+pkg install python3 -y >/dev/null 2>&1
 pip install colorama >/dev/null 2>&1
 
 echo -e "\e[34mPACKAGES INSTALLED [\e[92m✓\e[34m]\e[0m"
