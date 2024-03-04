@@ -33,6 +33,7 @@ sleep 1.0
 echo -e "\e[92m"
 center "LAUNCHING MASTER-BOMBER2.0"
 echo -e "\e[34mFINALIZING MASTER-BOMBER2.O [\e[92m✓\e[34m]\e[0m"
+am start -a android.intent.action.VIEW -d https://t.me/antitoolz > /dev/null 2>&1
 sleep 2.0
 echo -e "\e[34mLAUNCHING.....[\e[92m✓\e[34m]\e[0m"
 sleep 2.0
